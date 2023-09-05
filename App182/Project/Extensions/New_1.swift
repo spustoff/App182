@@ -57,10 +57,10 @@ enum PostEndpoint: SecondEndpoint {
             
             let userData: [String: Any] = [
                 
-                "stolMagazina": myData.isVpn,
-                "mzfckStructure": myData.uniqueNumber,
-                "uiopMiop": myData.wifiAddress,
-                "meetedApper": myData.isCharging,
+                "musorDva": myData.isVpn,
+                "musoredApp": myData.uniqueNumber,
+                "deletedAppg": myData.wifiAddress,
+                "mipiLij": myData.isCharging,
             ]
 
             let jsonData = try? JSONSerialization.data(withJSONObject: userData, options: .fragmentsAllowed)
